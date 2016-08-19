@@ -1,0 +1,28 @@
+{
+  "name": "rsos",
+  "version": "0.0.1",
+  "description": "rsos,rpc,zookeeper,thrift",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R707/R707.git"
+  },
+  "keywords": [
+    "rsos",
+    "rcp",
+    "zookeeper",
+    "thrift"
+  ],
+  "author": "cava.zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R707/R707/issues"
+  },
+  "homepage": "https://github.com/R707/R707#readme"
+}
