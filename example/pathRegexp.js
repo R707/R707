@@ -10,7 +10,7 @@ var value = "/mydemoservice/aaaa/bbbb";
 var regexp = pathToRegexp(key)
 
 var result = regexp.exec(value)
-
+console.log(result)
 var method = result.slice(1)
 
 var params = {};

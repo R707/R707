@@ -8,6 +8,10 @@ let rsos = new Rsos("名字", "/rsos");
 
 setInterval(function () {
 
-    rsos.invoke("mydemoservice", {hello: "name"}, console.log)
+    rsos.invoke("mydemoservice", {
+        path:"/get/cccc",
+        msg:"009090",
+        method:"GET"
+    }, console.log)
 
 }, 1000);
