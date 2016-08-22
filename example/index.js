@@ -4,14 +4,13 @@
 "use strict"
 const Rsos = require("../lib/master")
 
-let rsos = new Rsos("名字", "/rsos");
+let rsos = new Rsos("名字", "/tuling-rsos", {connect: "localhost:2181"});
 
 setInterval(function () {
 
     rsos.invoke("mydemoservice", {
-        path:"/get/cccc",
-        msg:"009090",
-        method:"GET"
+        path: "/get/cccc",
+        method: "GET"
     }, console.log)
 
 }, 1000);

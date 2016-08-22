@@ -1,6 +1,6 @@
 {
   "name": "rsos",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rsos,rpc,zookeeper,thrift",
   "main": "index.js",
   "directories": {
