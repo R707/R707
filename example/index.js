@@ -6,11 +6,11 @@ const Rsos = require("../lib/master")
 
 let rsos = new Rsos("名字", "/tuling-rsos", {connect: "localhost:2181"});
 
-setInterval(function () {
-
-    rsos.invoke("mydemoservice", {
-        path: "/get/cccc",
-        method: "GET"
-    }, console.log)
-
-}, 1000);
+// setInterval(function () {
+//
+//     rsos.invoke("myservice", {
+//         path: "/get/cccc",
+//         method: "GET"
+//     }, console.log)
+//
+// }, 1000);
